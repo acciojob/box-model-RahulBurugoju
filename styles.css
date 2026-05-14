@@ -1,5 +1,5 @@
 /*  your css code here. If applicable */
-.Container{
+.container{
 	display:flex;
 	justify-content:center;
 	align-items:center;
@@ -14,18 +14,27 @@
 	height:50px;
 	width:50px;
 	background-color:green;
-	border-radius:50px;
+	
+	border: 2px solid black;
+  border-radius: 50%;
+
+  display: block;
 }
 .yellow{
 	height:50px;
 	width:50px;
 	background-color:yellow;
-	border-radius:50px;
-	box-shadow:20px;
+	border: 2px solid black;
+  border-radius: 50%;
+
+  display: block;
 }
 .red{
 	height:50px;
 	width:50px;
 	background-color:red;
-	border-radius:50px;
+	border: 2px solid black;
+  border-radius: 50%;
+
+  display: block;
 }
