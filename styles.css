@@ -1,5 +1,5 @@
 /*  your css code here. If applicable */
-.main{
+.Container{
 	display:flex;
 	justify-content:center;
 	align-items:center;
@@ -10,20 +10,20 @@
 	gap:20px;
 	background-color:slategray;
 }
-.main div:nth-child(1){
+.green{
 	height:50px;
 	width:50px;
 	background-color:green;
 	border-radius:50px;
 }
-.main div:nth-child(2){
+.yellow{
 	height:50px;
 	width:50px;
 	background-color:yellow;
 	border-radius:50px;
 	box-shadow:20px;
 }
-.main div:nth-child(3){
+.red{
 	height:50px;
 	width:50px;
 	background-color:red;
